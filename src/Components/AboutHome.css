@@ -1,0 +1,16 @@
+.about-home-container::before {
+  content: "";
+  position: absolute;
+  top: 1%;
+
+  left: 0;
+  margin-right: 0;
+  width: 150px; /* adjust size */
+  height: 150px;
+  background-image: url("../assets/leaf.png"); /* or '../assets/leaf.png' if imported differently */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2; /* behind content */
+  opacity: 0.7; /* optional */
+}
