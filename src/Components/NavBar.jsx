@@ -1,16 +1,14 @@
 import React from "react";
 import Logo from "../assets/RatheeLogo.png";
 import { FaUser, FaShoppingBag, FaSearch } from "react-icons/fa";
-import { useState } from "react";
+
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
 function NavBar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
-    <div className="  w-full  flex items-center justify-between  md:justify-around md:m-0 overflow-hidden bg-white bg-opacity-80 shadow-md z-10  top-0 sticky">
+    <div className="  w-full flex items-center justify-between  md:justify-around md:m-0 overflow-hidden bg-white bg-opacity-80 shadow-md z-10  top-0 sticky">
       {/*Logo*/}
       <div className="ml-12">
         <img
@@ -45,12 +43,6 @@ function NavBar() {
         <FaXTwitter className="text-green-600 " size={20} />
 
         <FaInstagram className="text-green-600 " size={20} />
-      </div>
-      <div className="xl:hidden">
-        <i
-          className="block text-5xl cursor-pointer bx bx-menu"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        ></i>
       </div>
     </div>
   );

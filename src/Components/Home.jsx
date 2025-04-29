@@ -30,6 +30,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <AboutPart />
       <Footer />
     </div>
   );
