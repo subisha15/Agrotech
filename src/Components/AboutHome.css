@@ -14,3 +14,10 @@
   z-index: 2; /* behind content */
   opacity: 0.7; /* optional */
 }
+.swiper-pagination-progressbar {
+  background: rgba(255, 255, 255, 0.2); /* background line */
+  height: 4px;
+}
+.swiper-pagination-progressbar-fill {
+  background: #4baf47; /* progress bar fill */
+}

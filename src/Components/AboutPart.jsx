@@ -8,7 +8,7 @@ function AboutPart() {
           <h2 className="text-green-700 font-handwritten text-2xl mb-2">
             About Us
           </h2>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-4xl md:text-4xl font-bold mb-6">
             Sustainable Agriculture and <br></br>Environmental
           </h1>
           <p className="text-gray-600 mb-6 max-w-2xl">

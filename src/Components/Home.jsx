@@ -4,6 +4,10 @@ import Banner from "../assets/Hero_Banner.jpg";
 import TopNav from "./TopNav";
 import AboutPart from "./AboutPart";
 import Footer from "./Footer";
+import PolyhouseStats from "./PolyhouseStats";
+import ServicesPart from "./ServicesPart";
+import Testimonial from "./Testimonial";
+import GalleryPart from "./GalleryPart";
 
 function Home() {
   return (
@@ -31,6 +35,11 @@ function Home() {
         </div>
       </div>
       <AboutPart />
+      <ServicesPart />
+      <Testimonial />
+
+      <PolyhouseStats />
+      <GalleryPart />
       <Footer />
     </div>
   );
